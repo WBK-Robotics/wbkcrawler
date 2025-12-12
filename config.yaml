@@ -1,0 +1,20 @@
+# Here you can set all parameters
+
+# Define task (crawling or processing)
+task: 'process' # Choose between 'crawl', 'process' and 'merge'
+
+# Parameters for the 'crawl' task
+crawler:
+  path_dataset: 'dataset'   # Path to your dataset directory
+  search_by: 'image'  # Choose between 'keyword' and 'image'
+  keywords: ['battery pack disassembly']  # Choose keywords for you google search request, each entry in you list is one search attempt
+  limit:  100 # Maximum number of images to crawl by keyword (may be less if no search result fits)
+  delay: 2  # Time in seconds your browser has to load the content (depends on your internet connection) -> for better quality wait longer
+  min_res: [250,250] # Choose your minimal resolution for the images
+  path_images_to_merge: 'dataset/external' 
+  
+
+
+
+
+
