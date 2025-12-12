@@ -21,7 +21,7 @@ Now you can get your code ready:
 0. Clone this repository
 
 ```
-git clone https://git.scc.kit.edu/bl0787/batteriedemontage.git
+git clone https://github.com/WBK-Robotics/wbkcrawler.git
 ```
 
 1. Navigate into crawler directory
